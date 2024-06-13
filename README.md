@@ -51,6 +51,9 @@ python train_hr.py
 ```
 * for RSIVQA dataset
 	- Change the default path of image files
+	- Since RSIVQA comprises multiple datasets
+with varying image sizes, we first resize all images to a unified
+size of 256 × 256 before feeding them into the model. Please resize images before training the model on RSIVQA dataset.
 
 ```shell
 python train_rsi.py
