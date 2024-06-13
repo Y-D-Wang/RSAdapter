@@ -28,11 +28,11 @@ FC layers during inference, reducing inference costs.
 ![](Figure/Flowchart.png)
 
 
-### Preparation
+## Preparation
 
 - Download the [RSVQA](https://github.com/syvlo/RSVQA) and [RSIVQA](https://github.com/nikhilrane-21/RSIVQA) datasets. 
 
-### Training
+## Training
 
 
 * for RSVQA-LR dataset
@@ -57,9 +57,18 @@ python train_rsi.py
 
 ```
 
-- RSAdapter is implemented in https://github.com/Y-D-Wang/RSAdapter/blob/6a7627833ca4daac00eab4b3fdf5ad0a543c5a79/src/t/src/transformers/models/vilt/modeling_vilt_test.py#L478.
-- RSadapter is added to the vilt model in https://github.com/Y-D-Wang/RSAdapter/blob/6a7627833ca4daac00eab4b3fdf5ad0a543c5a79/src/t/src/transformers/models/vilt/modeling_vilt_test.py#L546 and https://github.com/Y-D-Wang/RSAdapter/blob/6a7627833ca4daac00eab4b3fdf5ad0a543c5a79/src/t/src/transformers/models/vilt/modeling_vilt_test.py#L561.
+- RSAdapter is implemented in https://github.com/Y-D-Wang/RSAdapter/blob/6a7627833ca4daac00eab4b3fdf5ad0a543c5a79/src/t/src/transformers/models/vilt/modeling_vilt_test.py#L479
+- RSadapter is added to the vilt model in https://github.com/Y-D-Wang/RSAdapter/blob/6a7627833ca4daac00eab4b3fdf5ad0a543c5a79/src/t/src/transformers/models/vilt/modeling_vilt_test.py#L546 and https://github.com/Y-D-Wang/RSAdapter/blob/6a7627833ca4daac00eab4b3fdf5ad0a543c5a79/src/t/src/transformers/models/vilt/modeling_vilt_test.py#L561
 
-### Acknowledgement
+## COMPARISON WITH SOTA 
+
+![](Figure/Comp_1.png)
+![](Figure/Comp_2.png)
+
+## TODO
+
+- Add Inference code
+
+## Acknowledgement
 
 The codes are based on [transformers](https://github.com/huggingface/transformers). The authors would also like to thank the contributors to the  [RSVQA](https://github.com/syvlo/RSVQA) and [RSIVQA](https://github.com/nikhilrane-21/RSIVQA) datasets.
