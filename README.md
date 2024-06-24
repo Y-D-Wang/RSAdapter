@@ -5,11 +5,12 @@ The official PyTorch implementation of the paper "[RSAdapter: Adapting Multimoda
 If you find our work useful in your research, please cite:
 
 ```
-@article{wang2023rsadapter,
+@article{wang2024rsadapter,
   title={RSAdapter: Adapting Multimodal Models for Remote Sensing Visual Question Answering},
   author={Wang, Yuduo and Ghamisi, Pedram},
-  journal={arXiv preprint arXiv:2310.13120},
-  year={2023}
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2024},
+  publisher={IEEE}
 }
 ```
 
