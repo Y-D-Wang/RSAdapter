@@ -26,8 +26,9 @@ Adapter. This approach not only improves adaptation to pretrained multimodal mod
 linear transformation layer to be integrated into the preceding
 FC layers during inference, reducing inference costs.
 
-![](Figure/Flowchart.png)
-
+<div align="center">
+  <img src=Figure/Flowchart.png width=80% />
+</div>
 
 ## Preparation
 
@@ -66,8 +67,13 @@ python train_rsi.py
 
 ## COMPARISON WITH SOTA 
 
-![](Figure/Comp_1.png)
-![](Figure/Comp_2.png)
+<div align="center">
+  <img src=Figure/Comp_1.png width=50% />
+</div>
+
+<div align="center">
+  <img src=Figure/Comp_2.png width=50% />
+</div>
 
 ## TODO
 
